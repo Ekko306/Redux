@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import './api/server'
 import { fetchUsers } from "./features/users/usersSlice"
 
-// store.dispatch(fetchUsers())
+store.dispatch(fetchUsers())
 
 ReactDOM.render(
   <React.StrictMode>
