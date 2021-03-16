@@ -7,7 +7,6 @@ class Counter extends Component {
         super(props);
         this.incrementAsync = this.incrementAsync.bind(this)
         this.incrementIfOdd = this.incrementIfOdd.bind(this)
-        console.log(123)
     }
 
     incrementIfOdd() {
