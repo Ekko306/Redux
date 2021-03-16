@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Redux Tutorials
+https://redux.js.org/introduction/getting-started
 
-## Available Scripts
+共6个分支，官网tutorials代码练习：
 
-In the project directory, you can run:
+## 1. master
+多个文件夹，均为counter例子，区分多种形式实现的区别（redux的api区别）  
 
-### `yarn start`
+|  文件夹名   | 介绍  |
+|  ----  | ----  |
+| React  | 纯state实现 |
+| Redux  | html+redux.min.js，不依赖React实现 |
+| React + Redux | React+Redux包实现 |
+| React-Redux|React+React-Redux包实现|
+| React-Toolkit|React+Redux-Toolkit包实现|
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+计数器例子简单，主要理解不同redux嵌入使用形式
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 2. counter
+https://redux.js.org/tutorials/essentials/part-2-app-structure  
+计数器例子
 
-### `yarn test`
+## 3. media-app
+https://redux.js.org/tutorials/essentials/part-3-data-flow  
+基本媒体app，实现redux数据流
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 4. media-app-v2
+https://redux.js.org/tutorials/essentials/part-4-using-data  
+媒体app增加更多功能
 
-### `yarn build`
+## 5. media-app-async
+https://redux.js.org/tutorials/essentials/part-5-async-logic  
+媒体app，增加异步操作
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 6。media-app-imporve
+https://redux.js.org/tutorials/essentials/part-6-performance-normalization  
+媒体app，添加更多复杂功能，还未完善完全
